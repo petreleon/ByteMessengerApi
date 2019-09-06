@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/petreleon/RodyMessengerApi/issues"
   },
-  "homepage": "https://github.com/petreleon/RodyMessengerApi#readme"
+  "homepage": "https://github.com/petreleon/RodyMessengerApi#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0"
+  }
 }
