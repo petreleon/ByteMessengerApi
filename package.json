@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/petreleon/RodyMessengerApi#readme",
   "devDependencies": {
-    "eslint": "^6.3.0"
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
   }
 }
