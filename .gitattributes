@@ -1,0 +1,3 @@
+#EOL must be LF
+*.js text eol=lf
+*.json text eol=lf
