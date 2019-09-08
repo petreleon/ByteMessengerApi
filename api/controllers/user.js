@@ -4,7 +4,7 @@ export default class UserController {
   }
 
   getUsers(done) {
-    this.Users.find({}, done).exclude('password');
+    this.Users.find({}, { password: 0 }, done);
   }
 
   addUser(user, done) {
