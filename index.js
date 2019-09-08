@@ -17,4 +17,4 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 app.use('/api', mainRoute);
 
-app.listen(process.env.PORT, () => console.log(`Rody Messenger listening on port ${process.env.PORT}!`));
+app.listen(parseInt(process.env.PORT, 10), () => console.log(`Rody Messenger listening on port ${process.env.PORT}!`));
