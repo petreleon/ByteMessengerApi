@@ -11,7 +11,10 @@ mongoose.connect(process.env.MONGO_COLLECTION);
 mongoose.set('debug', true);
 
 const app = express();
-app.use(bodyParser);
+app.use(bodyParser.urlencoded({
+  extended: true,
+}));
+app.use(bodyParser.json());
 app.use('/api', mainRoute);
 
 app.listen(process.env.PORT, () => console.log(`Rody Messenger listening on port ${process.env.PORT}!`));
