@@ -1,6 +1,6 @@
-# RodyMessengerApi
+# ByteMessengerApi
 
-Rody Messenger has to be a simplified messenger:
+Byte Messenger has to be a simplified messenger:
 - REST-like API
 - Presence: emoji and description
 - Conversation rooms with users and their last seen dates.
